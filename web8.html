@@ -11,58 +11,41 @@ ul,li,ol{
 	list-style:none;}
 a{
 	text-decoration:none;}
-.box1{margin:0 auto;
-	height:40px;
+.box1{height:40px;
 	width:100%;}
-.box11{margin:0 auto;
-	width:1400px;
+.box11{width:1200px;
 	height:40px;
-	overflow:hidden;}
-.box11 p{margin:0 auto;
-	float:left;
+	margin:0 auto;}
+.box11 p{float:left;
 	color:black;
-	margin-left:450px;}
-.box11 a{color:black;margin:0 auto;
-	text-decoration:none;
-	line-height:20px;font-size:20px;
+	margin-left:300px;}
+.box11 a{color:black;
+	line-height:20px;
+	font-size:20px;
 	margin-left:20px;}
-.box11 option{margin:0 auto;
-	border:none;}
-.box11 img{margin:0 auto;
-	margin-left:85px;}
-.box2{width:100%;margin:0 auto;
-	height:65px;
-	margin-left:200px;}
-.box20{width:1200px;margin:0 auto;
+.box2{width:100%;
 	height:65px;}
-.box2 input{
-	height:40px;
-	width:544px;
+.box20{width:1200px;
+	height:65px;
+	margin:0 auto;}
+.sousuo input{
+	height:37px;
+	width:540px;
 	text-align:center;
 	color:#dddddd;
-	position:absolute;
-	left:600px;
-	top:57px;}
-.box2 .photo1{
-	margin-left:800px;}
-.box21{margin:0 auto;
-	height:40px;
-	width:40px;
-	position:absolute;
-	top:60px;
-	left:300px;}
-.box2 .photo2{
-	margin:0 auto;
-  	position:absolute;
-	left:1420px;
-	top:67px;}
-.box3{margin: 0 auto;
-	width:100%;
+	margin-left:100px;
+	background:url('search.png')no-repeat 80%;
+	background-position:right;}
+.box2 .photo2{margin-top:-45px;
+	float:left;
+	margin-left:1050px;
+  	}
+.box3{width:100%;
 	height: 80px;
 	border-bottom:4px solid #3aa747;}
 .box30{margin:0 auto;
 	width:1200px;
-	height:50px;}
+	height:80px;}
 .box3 p a:hover{
 	color: #3aa747;
 	border-bottom: 4px solid #3aa747;}
@@ -73,37 +56,42 @@ a{
 	width: 100px;
 	float: left;	
 	text-align: center;
-	margin-left: 3px;}
-.box3 p{
-	float:left;
-	line-height: 76px;}
-.box3 select{margin-top:10px;
-	margin-left:-950px;}
+	margin-left: 10px;}
+.box3 p{line-height: 80px;}
+.box4{width:100%;
+	height:670px;}
 .box41 p{background-image:url('banner.png');
 	text-align:center;
-	height:670px;}
-.fix{
+	height:670px;
+	margin:0 auto;}
+.box42{
 	width: 75px;
 	height:390px;
 	position:fixed;
 	right: 3px;
 	top: 190px;}
-.fix li{
+.box42 li{
 	background-color:#030b0a;
 	height:100px;
 	margin-top: 2px;
 	text-align:center;}
-.fix li img{
+.box42 li img{
 	padding:30px;}
-.box5{
-	line-height: 97px;
-	margin-top:-20px;}
-.box5 a{
-	margin-left:220px;
+.box5{line-height: 97px;
+	width:100%;
+	height:80px;}
+.box51{width:1200px;
+	height:80px;
+	margin:0 auto;}
+.box5 a{margin-left:60px;
 	color: #000000;}
-.box5 span{
-	margin-left:970px;
-	color:#b4b3b3;}
+.box5 span{color:#b4b3b3;
+	margin-left:900px;}
+.box6{width:100%;
+	height:136px;}
+.box60{width:1200px;
+	height:136px;
+	margin:0 auto;}
 .box6 p a{
 	font-size: 20px;
 	color:#737373;
@@ -122,29 +110,22 @@ a{
 	text-align:center;
 	background-color:#e5e5e5;
 	color:black;}
-.box6{width:100%;margin:0 auto;
-		height:136px;}
-.box60{width:1200px;height:136px;margin:0 auto;
-	margin-left:0px;}
 .box61{
 	border:2px solid #cccccc;
 	height:50px;
-	width:1220px;
-	margin-left:200px;
+	width:1200px;
 	border-bottom:0;}
 .box6 p a:hover{
 	color:#3aa747;}
 .box62{margin:0 auto;
 	border:2px solid #cccccc;
 	height:50px;
-	width:1220px;
-	margin-left:200px;
+	width:1200px;
 	border-bottom:0;}
 .box63{margin:0 auto;
 	border:2px solid #cccccc;
 	height:50px;
-	width:1220px;
-	margin-left:200px;}
+	width:1200px;}
 .box7{width:100%;margin:0 auto;
 	height:100px;}
 .box70{margin:0 auto;
@@ -187,8 +168,8 @@ a{
 	display:block;
 	width:274px;
 	height:294px;
-	background-color:rgb(71,71,68,0.8);
-	line-height:90px;
+	background-color:rgb(71,71,68);
+	line-height:100px;
 	color:white;
 	position:absolute;
 	bottom:0px;}
@@ -268,29 +249,28 @@ a{
     				嘿，欢迎来买猜商城！
     			<a href="#">请登录</a>
     			<a href="#">免费注册</a>
-    			<select><option value="one" selected>我的订单</option></select>
-    			<select><option value="one" selected>我的买猜</option></select>
-    			<a href="#">帮助中心</a></p>
-    			<div class="photo">
+    			<a href="#">我的订单▼</a>
+    			<a href="#">我的买猜▼</a>
+    			<a href="#">帮助中心</a>
+    			</p>
     			<a href="#" class="photo11"><img src="wb.png" alt=""/></a>
     			<a href="#" class="photo12"><img src="wx.png" alt=""/></a>
     		</div>
-    		</div>
     	</div>
     	<div class="box2">
-    		<div class="box20">
-    		<img style="margin-left:-180px" src="logo.png" alt=""/>
+    	<div class="box20">
+    		<div class="sousuo">
+    		<img src="logo.png" alt=""/>
     		<input type="text" value="请输入搜索内容" name="one"/>
-    		<div class="box21">
-    			<a class="photo1" href="#"><img src="search.png" alt=""/></a></div>
-    			<a class="photo2" href="#"><img src="cart.png" alt=""/></a>
     		</div>
+    		<a class="photo2" href="#"><img src="cart.png" alt=""/></a>
+    	</div>
     	</div>
     	<div class="box3">
     		<div class="box30">
     		<p>
-    		<select><option value="one" selected>全部商品分类</option></select>
-			<a href="#" style="margin-left:170px;">首页</a>
+    		<a href="#" style="font-size:16px;">全部商品分类</a>
+			<a href="#">首页</a>
 			<a href="#">名酒</a>
 			<a href="#">茗茶</a>
 			<a href="#">玉石</a>
@@ -298,7 +278,7 @@ a{
 			<a href="#">洗护用品</a>
 			<a href="#">土特产</a>
 			<a href="#">积分商城</a>
-			<a href="#" style="margin-left:1050px;margin-top:-77px">抽奖游戏</a>
+			<a href="#">抽奖游戏</a>
 		</p>
     	</div>
 	</div>
@@ -306,7 +286,7 @@ a{
     	<div class="box41">
     		<p><img arc="banner.png"/></p>
     	</div>
-    	<ul class="fix">
+    	<ul class="box42">
     	 <li><a href="#">
     		<img src="cart1.png">
     	</a></li>
@@ -324,13 +304,14 @@ a{
     	</a></li>
     </div> 
     <div class="box5">
-    	<p class="crumb">
+    	<p class="box51">
     			<a href="#" style="font-size:20px;">首页</a>>
     			<a href="#" style="color:#b4b3b3;margin:0 auto;">玉石</a>
     			<span>共200件相关商品</span>	
     	</p>
     </div>
-    <div class="box6"><div class="box60">
+    <div class="box6">
+    <div class="box60">
     	<div class="box61">
     		<div class="zi1"><a href="#">玉石</a></div>
     		<p>
